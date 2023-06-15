@@ -1,0 +1,455 @@
+/* 1024px */
+@media only screen and (max-width: 64em) {}
+
+/* 955px */
+@media only screen and (max-width: 59.6875em) {
+  .nav-list {
+    flex-basis: 72%;
+  }
+
+  .hero-text {
+    width: 80%;
+  }
+
+  .hero-text-p {
+    width: 100%;
+  }
+
+  .about-box {
+    width: 41%;
+  }
+
+  .about-header h3 {
+    font-size: 1.2rem;
+  }
+
+  .customer-text {}
+
+  /* OUR MISSION AND VISION */
+  .history-text p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  /* DATA PLANS */
+  .data-box {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .data-plan {
+    flex-basis: 30%;
+    padding: 1rem 1.5rem;
+  }
+
+  .data-plan:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .data-plan a {
+    width: 90%;
+  }
+
+  /* FAQ SECTION */
+  .faq-header {
+    margin-bottom: 2rem;
+  }
+
+  /* TESTIMONIAL */
+  .testimonial-text {
+    flex-basis: 48%;
+  }
+
+  .testimonial-text p {
+    font-size: 1rem;
+    line-height: 35px;
+  }
+
+  .testimonial img {
+    width: 14rem;
+  }
+
+  .slider__btn {
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  /*..................CONTACT US......................*/
+
+  .social-handle {
+    justify-content: space-between;
+  }
+
+  .social {
+    margin-right: 1.5rem;
+  }
+
+  /* JOIN US SECTION */
+  .join-text h2 {
+    font-size: 1.5rem;
+  }
+
+  /*..................FOOTER......................*/
+  .footer-about p {
+    font-size: .9rem;
+  }
+
+  .footer-box h3 {
+    font-size: .9rem;
+  }
+
+  .footer-box ul a,
+  .footer-box ul li {
+    font-size: .8rem
+  }
+}
+
+/* 843px */
+@media only screen and (max-width: 52.6875em) {
+
+  section,
+  footer {
+    padding-top: 5rem;
+  }
+
+  .about-heading {
+
+    margin-top: 0rem;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .openMenu {
+    display: block;
+  }
+
+  .closeMenu {
+    display: block;
+  }
+
+  .menu-list li a {
+    display: block;
+  }
+
+  .link,
+  .login {
+    display: block;
+  }
+
+  .hero {
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+
+
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-img {
+    width: 55%;
+  }
+
+  /*..................WHAT YOU EXPECT.......................*/
+  .section-about {
+    padding-top: 3rem;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-head {
+    margin-bottom: 0rem;
+  }
+
+  .about-box {
+    width: 90%;
+    margin-top: 3rem;
+  }
+
+  .second {
+    margin-top: 0;
+  }
+
+  /*..................WHAT YOU EXPECT ......................*/
+  .customer-box {
+    flex-direction: column;
+  }
+
+  .customer-text {
+    width: 100%;
+  }
+
+  .customer-img {
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+
+  /* OUR MISSION AND VISION */
+  #mission {
+    margin-top: 0;
+  }
+
+  .history-box {
+    flex-direction: column;
+  }
+
+  .vision {
+    flex-direction: column-reverse;
+  }
+
+  .history-text {
+    width: 100%;
+
+  }
+
+  .history-box img {
+    width: 70%;
+    margin-top: 3em;
+  }
+
+  /* DATA PLANS */
+  .data h2 {
+    margin-bottom: 2rem;
+  }
+
+  .data-box {
+    justify-content: center;
+  }
+
+  .data-plan {
+    flex-basis: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2.5rem 1.8rem;
+  }
+
+  .data-plan img {
+    width: 18%;
+    margin-right: 41%;
+    margin-left: 41%;
+
+  }
+
+  .data-plan h4 {
+    font-size: 1.2rem;
+  }
+
+  /* TESTIMONIAL */
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .testimonial-text {
+    width: 70%;
+  }
+
+  .testimonial-text p {
+    line-height: 35px;
+  }
+
+  .testimonial-text h5 {
+    margin-top: 1rem;
+  }
+
+  .testimonial img {
+    margin-top: 2rem;
+  }
+
+  .sliders {
+    height: 30rem;
+  }
+
+  .slider__btn {
+    top: 30%;
+  }
+
+  .social-handle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* JOIN US SECTION */
+  .join-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
+
+  .join-text {
+    width: 100%;
+  }
+
+  .join-box img {
+    margin-top: 2rem;
+  }
+
+  /*..................CONTACT US......................*/
+  .social {
+    margin-bottom: 4rem;
+    margin-right: 0rem;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  /*..................FOOTER......................*/
+  footer {
+    padding-top: 2rem;
+  }
+
+  .footer-box {
+    flex-direction: column;
+  }
+
+  .footer-about {
+    flex-basis: 60%;
+  }
+
+  .footer-box ul {
+    margin-top: 3rem;
+  }
+
+  .footer-email input {
+    width: 60%;
+  }
+
+  .footer-logo {
+    margin-bottom: 1.8rem;
+  }
+
+}
+
+@media only screen and (max-width: 36.1875em) {
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .active {
+    margin-right: 2rem;
+  }
+
+  .customer-box {
+    margin-top: 2rem;
+  }
+
+  .history h2 {
+    margin-bottom: 2rem;
+  }
+
+  .panel-title {
+    padding: 10px 10px 0 25px;
+  }
+
+  .plus {
+    margin-left: 0px;
+  }
+
+  .testimonial-text {
+    width: 100%;
+  }
+
+  .slider__btn {
+    top: 80%;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  .sliders {
+    height: 40rem;
+  }
+
+  .slider__btn--left {
+    left: 30%;
+  }
+
+  .slider__btn--right {
+    right: 30%;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  #contact {
+    margin-top: -5rem;
+  }
+
+  .submit {
+    font-size: 1rem;
+    /* padding: 1rem 10rem; */
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (max-width: 31.625em) {
+
+  section,
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .input,
+  textarea,
+  .input:focus {
+    padding: 1rem;
+  }
+
+  .submit {
+    padding: 1rem 2rem;
+    ;
+  }
+
+  .join-text h2 {
+    font-size: 1.2rem !important;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+  }
+
+  .footer-email input {
+    width: 80%;
+  }
+
+  .copy {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (max-width: 22.8125em) {
+  .slider__btn {
+    top: 85%;
+  }
+
+  .slider__btn--right {
+    right: 20%;
+  }
+}
