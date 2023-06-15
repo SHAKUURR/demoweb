@@ -442,6 +442,10 @@
   .copy {
     font-size: .8rem;
   }
+
+  .closeMenu {
+    right: 20%;
+  }
 }
 
 @media only screen and (max-width: 22.8125em) {
